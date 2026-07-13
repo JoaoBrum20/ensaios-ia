@@ -1,4 +1,4 @@
-export const whatsappBase = "https://wa.me/";
+export const whatsappBase = "https://wa.me/5522992751432";
 
 export function whatsappUrl(message: string) {
   return `${whatsappBase}?text=${encodeURIComponent(message)}`;
