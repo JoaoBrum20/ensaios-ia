@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Ensaios com IA — Ensaios fotográficos profissionais sem sair de casa" },
       { name: "description", content: "Transforme suas fotos em um ensaio único, realista e personalizado — sem fotógrafo, estúdio ou complicação. A partir de R$ 9,90." },
       { name: "author", content: "Ensaios com IA" },
-      { property: "og:title", content: "Ensaios com IA — Seu ensaio profissional, sem sair de casa" },
-      { property: "og:description", content: "Ensaios editoriais, corporativos, infantis, casal e gestante criados com IA. Entrega em até 12h." },
+      { property: "og:title", content: "Ensaios com IA — Ensaios fotográficos profissionais sem sair de casa" },
+      { property: "og:description", content: "Transforme suas fotos em um ensaio único, realista e personalizado — sem fotógrafo, estúdio ou complicação. A partir de R$ 9,90." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Ensaios com IA — Ensaios fotográficos profissionais sem sair de casa" },
+      { name: "twitter:description", content: "Transforme suas fotos em um ensaio único, realista e personalizado — sem fotógrafo, estúdio ou complicação. A partir de R$ 9,90." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/787454ec-83c4-4ece-a9d2-cf2354f436f3/id-preview-73778593--c90a2e8b-0196-4383-a6be-20e88e20c9b1.lovable.app-1783976890468.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/787454ec-83c4-4ece-a9d2-cf2354f436f3/id-preview-73778593--c90a2e8b-0196-4383-a6be-20e88e20c9b1.lovable.app-1783976890468.png" },
     ],
     links: [
       {
