@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Ensaios com IA — Ensaios fotográficos profissionais sem sair de casa" },
+      { name: "description", content: "Transforme suas fotos em um ensaio único, realista e personalizado — sem fotógrafo, estúdio ou complicação. A partir de R$ 9,90." },
+      { name: "author", content: "Ensaios com IA" },
+      { property: "og:title", content: "Ensaios com IA — Seu ensaio profissional, sem sair de casa" },
+      { property: "og:description", content: "Ensaios editoriais, corporativos, infantis, casal e gestante criados com IA. Entrega em até 12h." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
