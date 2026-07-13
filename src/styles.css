@@ -1205,16 +1205,29 @@ footer > span {
 
   .portfolio-grid {
     display: flex;
+    gap: 14px;
     height: auto;
     overflow-x: auto;
-    padding-bottom: 8px;
+    padding: 4px 24px 16px;
+    margin: 0 -24px;
     scroll-snap-type: x mandatory;
+    scroll-padding-left: 24px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .portfolio-grid::-webkit-scrollbar {
+    display: none;
   }
 
   .portfolio-card {
-    flex: 0 0 84%;
-    height: 500px;
+    flex: 0 0 82%;
+    height: 460px;
     scroll-snap-align: start;
+  }
+
+  .portfolio-card img {
+    width: 100%;
   }
 
   .demo-caption {
