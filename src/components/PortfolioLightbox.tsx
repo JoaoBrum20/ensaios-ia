@@ -63,7 +63,7 @@ export function PortfolioLightbox({ style, onClose }: Props) {
             target="_blank"
             rel="noreferrer"
           >
-            Quero este ensaio <span aria-hidden="true">↗</span>
+            Gostei desse <span aria-hidden="true">✓</span>
           </a>
           <span className="lightbox-microcopy">
             Imagens demonstrativas criadas com IA
