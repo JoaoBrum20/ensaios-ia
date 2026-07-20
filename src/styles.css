@@ -506,6 +506,38 @@ h2 em {
   text-transform: uppercase;
 }
 
+.portfolio-more {
+  align-items: center;
+  background: rgba(200, 166, 106, 0.18);
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  color: var(--gold-light);
+  display: inline-flex;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  gap: 6px;
+  letter-spacing: .04em;
+  margin-top: 14px;
+  opacity: 0;
+  padding: 6px 14px;
+  transform: translateY(6px);
+  transition: opacity .3s ease, transform .3s ease, background .2s ease;
+}
+
+.portfolio-more i {
+  font-style: normal;
+}
+
+.portfolio-card:hover .portfolio-more,
+.portfolio-card:focus-visible .portfolio-more {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .portfolio-more { opacity: 1; transform: none; }
+}
+
 .demo-caption {
   color: #9a9287;
   font-size: 10px;
