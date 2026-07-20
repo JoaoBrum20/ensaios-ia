@@ -27,18 +27,19 @@ export const portfolioStyles: PortfolioStyle[] = [
   {
     id: "aniversario",
     label: "Aniversário",
-    cover: U("photo-1524504388940-b1c1722653e1"),
-    coverAlt: "Retrato editorial feminino em estúdio minimalista",
+    cover:
+      "https://otjwjkrbbzmrsgvhcpkj.supabase.co/storage/v1/object/public/Fotos%20Ensaio%20IA/aniversario/ANIV%20(2).png",
+    coverAlt: "Ensaio de aniversário com IA — retrato editorial",
     className: "portfolio-main",
     description:
       "Cenários sofisticados, roupa combinando com a data e direção de luz cinematográfica para eternizar seu momento.",
     images: [
-      { src: U("photo-1524504388940-b1c1722653e1"), alt: "Ensaio de aniversário 1" },
-      { src: U("photo-1531123897727-8f129e1688ce"), alt: "Ensaio de aniversário 2" },
-      { src: U("photo-1494790108377-be9c29b29330"), alt: "Ensaio de aniversário 3" },
-      { src: U("photo-1521572163474-6864f9cf17ab"), alt: "Ensaio de aniversário 4" },
+      { src: "https://otjwjkrbbzmrsgvhcpkj.supabase.co/storage/v1/object/public/Fotos%20Ensaio%20IA/aniversario/ANIV%20(2).png", alt: "Ensaio de aniversário 1" },
+      { src: "https://otjwjkrbbzmrsgvhcpkj.supabase.co/storage/v1/object/public/Fotos%20Ensaio%20IA/aniversario/ANIV%20(3).png", alt: "Ensaio de aniversário 2" },
+      { src: "https://otjwjkrbbzmrsgvhcpkj.supabase.co/storage/v1/object/public/Fotos%20Ensaio%20IA/aniversario/aniv%204.png", alt: "Ensaio de aniversário 3" },
+      { src: "https://otjwjkrbbzmrsgvhcpkj.supabase.co/storage/v1/object/public/Fotos%20Ensaio%20IA/aniversario/aniv%205.png", alt: "Ensaio de aniversário 4" },
     ],
-    whatsappMessage: "Olá! Quero criar meu ensaio de Aniversário com IA.",
+    whatsappMessage: "Olá! Gostei do ensaio de Aniversário e quero criar o meu.",
   },
   {
     id: "profissional",
@@ -53,7 +54,7 @@ export const portfolioStyles: PortfolioStyle[] = [
       { src: U("photo-1519085360753-af0119f7cbe7"), alt: "Ensaio profissional 3" },
       { src: U("photo-1472099645785-5658abf4ff4e"), alt: "Ensaio profissional 4" },
     ],
-    whatsappMessage: "Olá! Quero criar meu ensaio Profissional com IA.",
+    whatsappMessage: "Olá! Gostei do ensaio Profissional e quero criar o meu.",
   },
   {
     id: "infantil",
@@ -68,7 +69,7 @@ export const portfolioStyles: PortfolioStyle[] = [
       { src: U("photo-1596464716127-f2a82984de30"), alt: "Ensaio infantil 3" },
       { src: U("photo-1519340241574-2cec6aef0c01"), alt: "Ensaio infantil 4" },
     ],
-    whatsappMessage: "Olá! Quero criar meu ensaio Infantil com IA.",
+    whatsappMessage: "Olá! Gostei do ensaio Infantil e quero criar o meu.",
   },
 ];
 
