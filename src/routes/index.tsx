@@ -71,10 +71,6 @@ function Index() {
             <img src={heroImage} alt="Mulher em retrato editorial sofisticado" />
             <span className="image-tag">EDITORIAL · IA</span>
           </div>
-          <div className="floating-note">
-            <span className="note-number">01</span>
-            <p>Você imagina.<br /><strong>A gente cria.</strong></p>
-          </div>
         </div>
       </section>
 
@@ -113,6 +109,7 @@ function Index() {
                 <span>0{index + 1}</span>
                 <h3>{item.label}</h3>
                 <p>Ensaio personalizado</p>
+                <span className="portfolio-more">Ver mais <i aria-hidden="true">↗</i></span>
               </div>
             </button>
           ))}
